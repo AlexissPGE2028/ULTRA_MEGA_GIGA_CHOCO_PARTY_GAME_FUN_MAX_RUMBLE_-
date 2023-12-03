@@ -1,0 +1,3 @@
+./lib/my_printf/libmy.a:1: MAJOR:C-O1
+./my_sokoban:1: MAJOR:C-O1
+./vgcore.35620:1: MAJOR:C-O1

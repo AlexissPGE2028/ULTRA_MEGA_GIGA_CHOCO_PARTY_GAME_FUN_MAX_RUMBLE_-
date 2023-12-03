@@ -6,8 +6,9 @@ class Chocolatine(pygame.sprite.Sprite):
         super().__init__()
         self.sprite = pygame.image.load("Assets/choco.png")
         self.sprite.set_colorkey([0, 0, 0])
-        self.sprite = pygame.transform.scale(self.sprite, (150, 150))
+        self.sprite = pygame.transform.scale(self.sprite, (100, 100))
         self.rect = self.sprite.get_rect()
+        self.rect.topleft = (x, y)
         self.pos = [x, y]
         self.flapping = False
         self.power = 15
@@ -34,3 +35,4 @@ class Chocolatine(pygame.sprite.Sprite):
         self.gravity *= 1.035
         self.flap()
         self.collide_window()
+        self.rect.topleft = (self.pos[0], self.pos[1])

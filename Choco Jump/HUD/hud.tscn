@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://drb0n0q4mldjf"]
+
+[node name="HUD" type="CanvasLayer"]
+
+[node name="Label" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "0"

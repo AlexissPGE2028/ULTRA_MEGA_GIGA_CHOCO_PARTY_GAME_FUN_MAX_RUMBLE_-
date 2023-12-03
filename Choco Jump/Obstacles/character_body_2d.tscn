@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://bfy32qm0a37l3"]
+
+[ext_resource type="Script" path="res://Obstacles/choco.gd" id="1_2bgf0"]
+[ext_resource type="Texture2D" uid="uid://bgyyfr15iomkg" path="res://assets/croissant .png" id="2_tv6gy"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_gie28"]
+radius = 13.0
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+script = ExtResource("1_2bgf0")
+
+[node name="Croissant" type="Sprite2D" parent="."]
+position = Vector2(105.75, 13)
+scale = Vector2(0.0336914, 0.0338542)
+texture = ExtResource("2_tv6gy")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(106, 14)
+shape = SubResource("CircleShape2D_gie28")

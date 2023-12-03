@@ -1,0 +1,20 @@
+sourire
+grimace
+sourire jaune
+grimace jaune
+sourire rouge
+grimace rouge
+sourire bleu
+grimace bleu
+sourire vert
+grimace vert
+sourire orange
+grimace orange
+sourire rose
+grimace rose
+sourire violet
+grimace violet
+sourire bleu/rouge
+grimace bleu/rouge
+sourire jaune/vert
+grimace jaune/vert

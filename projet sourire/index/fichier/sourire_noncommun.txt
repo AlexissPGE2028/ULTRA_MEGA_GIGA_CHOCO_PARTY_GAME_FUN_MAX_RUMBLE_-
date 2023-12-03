@@ -1,0 +1,12 @@
+sourire de la pomme
+grimace de la pomme
+sourire de la banane
+grimace de la banane
+sourire triste
+grimace heureuse
+sourire droitié
+grimace droitiere
+sourire gauché
+grimace gauchere
+sourire timide
+grimace timide

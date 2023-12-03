@@ -1,0 +1,4 @@
+../index/image/image packBooster/booster n1.png
+../index/image/image packBooster/booster n2.png
+../index/image/image packBooster/booster n3.png
+../index/image/image packBooster/booster n4.png

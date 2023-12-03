@@ -1,0 +1,18 @@
+../index/image/image commun/chocolatine.jpg
+../index/image/image commun/chocolatine1.jpg
+../index/image/image commun/chocolatineseul.jpg
+../index/image/image commun/croissant.png
+../index/image/image commun/croissantparis.jpg
+../index/image/image commun/deo.jpg
+../index/image/image commun/donut.jpg
+../index/image/image commun/doublechoco.jpg
+../index/image/image commun/lot de donut.jpg
+../index/image/image commun/mondialchoco.png
+../index/image/image commun/packdechoco.jpg
+../index/image/image commun/mondialchoco.png
+../index/image/image commun/packdechoco.jpg
+../index/image/image commun/plusieurcroissant.jpg
+../index/image/image commun/tarte.jpg
+../index/image/image commun/tarte a la figue.jpg
+../index/image/image commun/tarte a la fraise.jpg
+../index/image/image commun/tarte au citron.jpg

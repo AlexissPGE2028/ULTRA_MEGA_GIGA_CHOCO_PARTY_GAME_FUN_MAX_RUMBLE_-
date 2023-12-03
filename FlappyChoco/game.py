@@ -28,7 +28,16 @@ class Game:
     def check_collisions(self):
             collisions = pygame.sprite.groupcollide(self.player, self.pipes, False, False)
             if collisions:
-                self.running = False
+                while self.running:
+                    self.screen.blit(pygame.image.load("Assets/game-over.png"), (0, 0))
+                    text = self.font.render(f"Score:{self.score}", True, [255, 255, 255])
+                    self.screen.blit(text, (250, 400))
+                    pygame.display.flip()
+                    for event in pygame.event.get():
+                        if event.type == pygame.QUIT:
+                             self.running = False
+                        
+
 
     def handle_input(self):
         key_pressed = pygame.key.get_pressed()

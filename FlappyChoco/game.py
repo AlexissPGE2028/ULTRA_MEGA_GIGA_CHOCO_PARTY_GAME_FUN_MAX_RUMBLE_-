@@ -21,7 +21,6 @@ class Game:
         self.font = pygame.font.Font(None, 128)
         self.t = 0
 
-# Function to display a number on the screen
     def display_number(self, number):
         text = self.font.render(f"{number}", True, [255, 255, 255])
         self.screen.blit(text, (380, 280))

@@ -2,7 +2,7 @@ import os
 import sys
 import random
 
-game = random.randint(1, 4)
+game = random.randint(1, 3)
 
 print(game)
 if (game == 1 or sys.argv[1] == "flappy"):
